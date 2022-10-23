@@ -1,0 +1,42 @@
+body{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	background-color: #f9edfd;
+}
+.navbar {
+	background: #c076d17b;
+}
+
+.navbar a {
+	display: inline-block;
+	padding: 25px;
+	text-align: center;
+	color: #000;
+	transition: .4s ease-out all;
+	text-decoration: none;
+	font-weight: bold;
+
+}
+
+.navbar a:hover {
+	background: #993BC7;
+	color: #fff;
+	text-decoration: none;
+}
+
+.contenedor {
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+	justify-content: center;
+	width: 100%;
+}
+
+#logo {
+	width: 30%;
+}
+
+#banner {
+	display: flex;
+	justify-content: center;
+	padding: 40px;
+}
