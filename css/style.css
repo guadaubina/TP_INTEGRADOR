@@ -42,3 +42,43 @@ body{
 	border-bottom:#c076d17b 5px solid;
 	width: 100%;
 }
+
+#formulario {
+    display: flex;
+    width: 70%;
+}
+
+#divformulario {
+    display: flex;
+    justify-content: center;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 10px;
+    margin: 7px;
+    display: flex;
+    border: 1px solid white;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+  }
+
+.inputbutton {
+    width: 20%;
+    background-color:#c076d17b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+.inputbutton:hover {
+    background-color:#993BC7;
+}
+
+#header {
+
+}
