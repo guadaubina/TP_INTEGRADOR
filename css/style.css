@@ -38,5 +38,7 @@ body{
 #banner {
 	display: flex;
 	justify-content: center;
-	padding: 40px;
+	padding: 40px 0px 0px 0px;
+	border-bottom:#c076d17b 5px solid;
+	width: 100%;
 }
