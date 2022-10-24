@@ -17,34 +17,38 @@ text-align: center;
 	block-size: 15%;
 }
 
-/*
 #psicologos{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+    text-align: justify;
+	block-size: 15%;
 }
- */
 
 .cv{
 	width: 400px;
-	background-color: #993BC7;
+	background-color: #f0daf8;
 	border: #000 solid;
-	/*display: contents;*/
+    border-width: 0.3px;
+	border-radius: 2%;
 	height: 220px;
 	margin: 5px;
 	flex-wrap: wrap;
+    box-shadow: 10px #000;
 }
 
 .img-cv{
 	width: 100px;
-	padding: 10px;
+	margin: 10px;
 	float: left;
+    border: #000 solid;
+    border-width: 0.3px;
 }
 
 .textoCV{
 	display: inline-block;
 	vertical-align: top;
-	font-size: 10px;
+	font-size: 12px;
     text-align: left;
 	position: relative;
 	width: 50%;
