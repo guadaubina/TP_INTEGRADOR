@@ -11,3 +11,12 @@ Vue.component("navegador", {
 new Vue({
     el:"#navcomponent"
 })
+
+Vue.component("btnContactos",
+    {
+        template: ''
+});
+new Vue({
+    el:"#botoncontactos"
+})
+
