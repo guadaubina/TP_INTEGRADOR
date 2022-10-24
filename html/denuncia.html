@@ -17,75 +17,26 @@
     </div>
     <div id="divformulario">
         <div id="formulario"> 
-            <form method="get" action="">
+            <form>
                 <table>
                     <tbody>
                         <tr>
                             <td> Nombre completo* </th>
-                            <td> <input name="Nombre completo" type="text" placeholder="Ingrese su nombre y apellido" id="" size="130" required> </td>
-                        </tr>
-                        <tr>
-                            <td> Empresa </th>
-                            <td> <input name="Empresa" type="text" placeholder="Ingrese el nombre de su empresa" id="" size="130"> </td>
+                            <td> <input name="Nombre completo" type="text" placeholder="Ingrese su nombre y apellido" id="nombreId" size="130" required> </td>
                         </tr>
                         <tr>
                             <td> Dirección* </th>
-                            <td> <input name="Dirección" type="text" placeholder="Ingrese su dirección" id="" size="130" required> </td>
-                        </tr>
-                        <tr>
-                            <td>Variedad de cafe</td>
-                            <td>
-                                <select name="Cafe" id="">
-                                    <option value="">Seleccione una opción</option>
-                                    <option value="Cafe expreso">Cafe expreso</option>
-                                    <option value="Cafe doble">Cafe doble</option>
-                                    <option value="Cafe flash">Cafe flash</option>
-                                    <option value="Cafe mocha">Cafe mocha</option>
-                                    <option value="Capuccino">Capuccino</option>
-                                </select>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Cantidad</td>
-                            <td> 
-                                <input type="number" name="Cantidad cafe" id="" min="1" step="1" value="1">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Snacks</td>
-                            <td>
-                                <select name="Cafe" id="">
-                                    <option value="">Seleccione una opción</option>
-                                    <option value="Brownie">Brownie de chocolate</option>
-                                    <option value="Alfajor">Alfajor de dulce de leche</option>
-                                    <option value="Scon de queso">Scon de queso</option>
-                                    <option value="Coquitos">Coquitos</option>
-                                </select>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Cantidad</td>
-                            <td> 
-                                <input type="number" name="Cantidad snack" id="" min="1" step="1" value="1">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <input type="checkbox" name="Cupon" id=""> <label for="">Tengo un cupón de beneficio </label> 
-                            </td>
-                            <td>
-                                <input name="codigo" type="text" placeholder="Ingrese su código de beneficio" id="" size="35">
-                            </td>
+                            <td> <input name="Dirección" type="text" placeholder="Ingrese su dirección" id="direccionId" size="130" required> </td>
                         </tr>
                     </tbody>
                 </table>
                 <div class="botonesflex">
-                    <input type="submit" value="PEDIR" class="inputbutton">
-                    <input type="reset" value="Borrar formulario" class="inputbutton">
+                    <button type="button" class="inputbutton" id="btnAddDenuncia">save</button>
                 </div>
             </form>
         </div> 
     </div>
+    <script src="../js/form.js"></script>
     <script src="../js/webcomponents.js"></script>
 </body>
 </html>
