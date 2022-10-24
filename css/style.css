@@ -83,35 +83,3 @@ input[type=text], select {
 
 }
 
-#mapa{
-	display: flex;
-	margin: 10px;
-	justify-content: center;
-}
-
-#cvs-general{
-text-align: center;
-}
-
-#abogados{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	text-align: justify;
-	block-size: 15%;
-	background-color: #993BC7;
-}
-
-#psicologos{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-}
-
-.cv{
-	width: 40px;
-}
-
-.img-cv{
-	width: 100px;
-}
