@@ -29,7 +29,7 @@ text-align: center;
 	width: 400px;
 	background-color: #993BC7;
 	border: #000 solid;
-	/*display: inline-block;*/
+	/*display: contents;*/
 	height: 220px;
 	margin: 5px;
 	flex-wrap: wrap;
@@ -47,5 +47,5 @@ text-align: center;
 	font-size: 10px;
     text-align: left;
 	position: relative;
-	
+	width: 50%;
 }
