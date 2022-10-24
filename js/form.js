@@ -19,5 +19,3 @@ function addDenuncia(pnombre, pdireccion){
     denunciasLista.push(denunciaObj);
 }
 
-const jsonDenuncias = JSON.stringify(denunciasLista)
-console.log(jsonDenuncias)
