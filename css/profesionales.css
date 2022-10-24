@@ -1,0 +1,55 @@
+#mapa{
+	display: flex;
+	margin: 10px;
+	justify-content: center;
+}
+
+#cvs-general{
+text-align: center;
+}
+
+
+#abogados{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	text-align: justify;
+	block-size: 15%;
+}
+
+#psicologos{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+    text-align: justify;
+	block-size: 15%;
+}
+
+.cv{
+	width: 400px;
+	background-color: #f0daf8;
+	border: #000 solid;
+    border-width: 0.3px;
+	border-radius: 2%;
+	height: 220px;
+	margin: 5px;
+	flex-wrap: wrap;
+    box-shadow: 10px #000;
+}
+
+.img-cv{
+	width: 100px;
+	margin: 10px;
+	float: left;
+    border: #000 solid;
+    border-width: 0.3px;
+}
+
+.textoCV{
+	display: inline-block;
+	vertical-align: top;
+	font-size: 12px;
+    text-align: left;
+	position: relative;
+	width: 50%;
+}
