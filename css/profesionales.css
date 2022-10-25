@@ -1,15 +1,10 @@
-#mapa{
-	display: flex;
-	margin: 10px;
-	justify-content: center;
-}
 
 #cvs-general{
 text-align: center;
 }
 
 
-#abogados{
+/*#abogados{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
@@ -24,25 +19,36 @@ text-align: center;
     text-align: justify;
 	
 }
+*/
+
+.bloquecv{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	text-align: justify;
+	margin: 0px 42px;
+
+}
 
 .cv{
 	width: 50%;
 	background-color: #f0daf8;
-	border: #000 solid;
+	border: #f0daf8 solid;
     border-width: 0.3px;
 	border-radius: 2%;
-	margin: 5px;
+	margin: 15px;
 	flex-wrap: wrap;
     box-shadow: 10px #000;
 }
 
 .img-cv{
+	border-radius: 2%;
 	width: 100px;
 	margin: 0px;
 	float: left;
     border: #000 solid;
     border-width: 0.3px;
-	border-radius: 2px;
+	border-radius: 50px;
 	margin-right: 5px;
 }
 
@@ -60,5 +66,12 @@ text-align: center;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	padding: 10px;
+	margin-top: 19px;
+	
 }
+
+.nombrecv{
+	text-align: center;
+	border-bottom: #000 solid;
+}
+
