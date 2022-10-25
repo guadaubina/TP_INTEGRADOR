@@ -28,7 +28,7 @@ text-align: center;
 .cv{
 	width: 50%;
 	background-color: #f0daf8;
-	border: #000 solid;
+	border: #f0daf8 solid;
     border-width: 0.3px;
 	border-radius: 2%;
 	margin: 5px;
@@ -37,12 +37,13 @@ text-align: center;
 }
 
 .img-cv{
+	border-radius: 2%;
 	width: 100px;
 	margin: 0px;
 	float: left;
     border: #000 solid;
     border-width: 0.3px;
-	border-radius: 2px;
+	border-radius: 50px;
 	margin-right: 5px;
 }
 
