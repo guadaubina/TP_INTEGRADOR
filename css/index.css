@@ -3,7 +3,9 @@ h1 {
 }
 
 .descripcion {
-    margin: 5%;
+    margin: 10%;
+    text-align: justify;
+    line-height: 30px;
 }
 
 .subtitulo {
