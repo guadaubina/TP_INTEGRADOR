@@ -83,3 +83,12 @@ input[type=text], select {
 
 }
 
+.linea{
+	border-bottom: #000 solid;
+	text-align: center;
+    margin: 23px auto 15px;
+	height: 2px;
+    width: 36px;
+	border-width: 3px;
+}
+
