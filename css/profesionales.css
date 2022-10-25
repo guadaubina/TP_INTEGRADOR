@@ -73,5 +73,6 @@ text-align: center;
 .nombrecv{
 	text-align: center;
 	border-bottom: #000 solid;
+	border-width: 1px;
 }
 
