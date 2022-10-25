@@ -12,9 +12,9 @@ text-align: center;
 #abogados{
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-around;
 	text-align: justify;
-	block-size: 15%;
+	
 }
 
 #psicologos{
@@ -22,16 +22,15 @@ text-align: center;
 	flex-direction: row;
 	justify-content: space-between;
     text-align: justify;
-	block-size: 15%;
+	
 }
 
 .cv{
-	width: 400px;
+	width: 50%;
 	background-color: #f0daf8;
 	border: #000 solid;
     border-width: 0.3px;
 	border-radius: 2%;
-	height: 220px;
 	margin: 5px;
 	flex-wrap: wrap;
     box-shadow: 10px #000;
@@ -39,10 +38,12 @@ text-align: center;
 
 .img-cv{
 	width: 100px;
-	margin: 10px;
+	margin: 0px;
 	float: left;
     border: #000 solid;
     border-width: 0.3px;
+	border-radius: 2px;
+	margin-right: 5px;
 }
 
 .textoCV{
@@ -52,4 +53,12 @@ text-align: center;
     text-align: left;
 	position: relative;
 	width: 50%;
+	padding: 0px 0px 10px 10px;
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 10px;
 }
