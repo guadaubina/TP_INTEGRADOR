@@ -3,7 +3,8 @@ body{
 	background-color: #f9edfd;
 }
 .navbar {
-	background: #c076d17b;
+	background: #d9afe2;
+
 }
 
 .navbar a {
@@ -79,9 +80,7 @@ input[type=text], select {
     background-color:#993BC7;
 }
 
-#header {
 
-}
 
 .linea{
 	border-bottom: #000 solid;
@@ -92,3 +91,37 @@ input[type=text], select {
 	border-width: 3px;
 }
 
+.principalheader {
+	position: sticky;
+	top: 0;
+	right: 0;
+	width: 100%;
+	overflow: hidden;
+	background-color: #f9edfd;
+}
+
+#row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+
+#botonpanico{
+	background-color: wheat;
+	width: 120px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	padding: 23px 0px 0px 0px;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-style: bold;
+
+}
+
+#botonpanico a:link{
+	text-decoration: none;
+}
+#botonpanico a:active{
+	color:#000
+}
