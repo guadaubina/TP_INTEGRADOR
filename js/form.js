@@ -20,6 +20,17 @@ function addDenuncia(pnombre, pdireccion){
 
 }
 
+function vermas5(id){
+    if(id=="mas5"){
+    document.getElementById("desplegar5").style.display="inline";   
+    document.getElementById("mas5").style.display="none"; 
+    }
+    else{
+    document.getElementById("desplegar5").style.display="none";
+    document.getElementById("mas5").style.display="inline";
+    }
+}
+
 // let pnombre2 = document.getElementById("nombreId").value;
 // let pdireccion2= document.getElementById("direccionId").value;
 
