@@ -109,12 +109,12 @@ input[type=text], select {
 
 
 #botonpanico{
-	background-color: wheat;
 	width: 120px;
-	height: 40px;
+	height: 30px;
 	display: flex;
 	justify-content: center;
-	padding: 23px 0px 0px 0px;
+	align-items: center;
+	margin: 16px 0px 0px 0px;
 	font-family:Verdana, Geneva, Tahoma, sans-serif;
 	font-style: bold;
 
@@ -125,4 +125,31 @@ input[type=text], select {
 }
 #botonpanico a:active{
 	color:#000
+}
+
+.button-33 {
+  background-color: #f55050;
+  border-radius: 100px;
+  cursor: pointer;
+  display: inline-block;
+  font-family:sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 15px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+}
+
+.button-33:hover {
+  transform: scale(1.15);
+}
+
+#color {
+	color: rgb(252, 250, 250);
+	font-weight: bold;
 }
