@@ -4,23 +4,6 @@ text-align: center;
 }
 
 
-/*#abogados{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	text-align: justify;
-	
-}
-
-#psicologos{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-    text-align: justify;
-	
-}
-*/
-
 .bloquecv{
 	display: flex;
 	flex-direction: row;

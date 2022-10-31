@@ -16,6 +16,22 @@ function addDenuncia(pnombre, pdireccion){
     direccion : pdireccion
     };
     console.log(denunciaObj)
-    denunciasLista.push(denunciaObj);
+    denunciasLista.push(JSON.stringify(denunciaObj));
+
 }
 
+// let pnombre2 = document.getElementById("nombreId").value;
+// let pdireccion2= document.getElementById("direccionId").value;
+
+// axios.post("http://127.0.0.1:5000", 
+// {"nombre":pnombre2,
+// "direccion":pdireccion2}
+// )
+//     .then(function (response) {
+//         alert("Esto funciono")
+//         console.log("ok")
+//             })
+//     .catch(function (error) {
+//         alert("Esto no esta funcionando");
+//         console.log(error);
+//             })
