@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/formulario.css">
     <title>Ayuda</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.3/vue.js"></script>
 </head>
@@ -23,75 +24,82 @@
         </div>
         <script src="../js/webcomponents.js"></script>
     </div>
-    <div id="divformulario">
+
+   
+        <p>En este formulario encontrarás puntos básicos e información necesaria para que podamos comprender la situación. El objetivo del mismo es poder que luego de brindarnos un contacto podriamos orientatte en el proceso. </p>
+            
+        <div class="linea"> </div>
+
+        
         <div id="formulario"> 
+
             <form action="http://127.0.0.1:5000" method="post">
-
-
             
                 <label>El formulario lo realizo para...</label>
                     <input name="quien" type="radio" value="mi misma" required><label>Mi Misma</label>
                     <input name="quien" type="radio" value="un tercero">
                     <label>Una Tercera Persona</label>
                     <input type="text" name="vinculo" placeholder="Vinculo con la victima">
-             <br>
+             
 
             
-                <label>Contacto</label><br>
+                <label> <h3>Contacto</h3></label>
+                <br>
                     <label>Teléfono*</label>
                         <input type="tel" name="telefono" id="" placeholder="Ingrese Número" maxlength="10" required>
                     <label>Mail*</label>
-                        <input type="email" name="mail" placeholder="Ingrese Mail" required><br>
+                        <input type="email" name="mail" placeholder="Ingrese Mail" required><br><br>
 
-                    <label >Horarios seguros de contacto</label><br>
+                    <div class="horarios">
+                        <label><u>Horarios seguros de contacto</u></label><br><br>
 
-                        <label>Opcion 1*</label> <br>
-                        <label>Día</label>
-                        <select name="Seleccionar" required>
-                            <option value="Seleccionar">Seleccionar</option>
-                            <option value="Lunes">Lunes</option>
-                            <option value="Martes">Martes</option>
-                            <option value="Miercoles">Miercoles</option>
-                            <option value="Jueves">Jueves</option>
-                            <option value="Viernes">Viernes</option>
-                            <option value="Sábado">Sábado</option>
-                            <option value="Domingo">Domingo</option>
-                        </select>
-                        <label>Hora</label>
-                        <input type="time" name="horario" required><br>
+                            <label><strong>Opcion 1*</strong></label> <br>
+                            <label>Día</label>
+                            <select name="Seleccionar" required>
+                                <option value="Seleccionar">Seleccionar</option>
+                                <option value="Lunes">Lunes</option>
+                                <option value="Martes">Martes</option>
+                                <option value="Miercoles">Miercoles</option>
+                                <option value="Jueves">Jueves</option>
+                                <option value="Viernes">Viernes</option>
+                                <option value="Sábado">Sábado</option>
+                                <option value="Domingo">Domingo</option>
+                            </select>
+                            <label>Hora</label>
+                            <input type="time" name="horario" required><br>
 
-                        <label>Opcion 2</label> <br>
-                        <label>Día</label>
-                        <select name="Seleccionar">
-                            <option value="Seleccionar">Seleccionar</option>
-                            <option value="Lunes">Lunes</option>
-                            <option value="Martes">Martes</option>
-                            <option value="Miercoles">Miercoles</option>
-                            <option value="Jueves">Jueves</option>
-                            <option value="Viernes">Viernes</option>
-                            <option value="Sábado">Sábado</option>
-                            <option value="Domingo">Domingo</option>
-                        </select>
-                        <label>Hora</label>
-                        <input type="time" name="horario"><br>
+                            <label><strong>Opcion 2</strong></label> <br>
+                            <label>Día</label>
+                            <select name="Seleccionar">
+                                <option value="Seleccionar">Seleccionar</option>
+                                <option value="Lunes">Lunes</option>
+                                <option value="Martes">Martes</option>
+                                <option value="Miercoles">Miercoles</option>
+                                <option value="Jueves">Jueves</option>
+                                <option value="Viernes">Viernes</option>
+                                <option value="Sábado">Sábado</option>
+                                <option value="Domingo">Domingo</option>
+                            </select>
+                            <label>Hora</label>
+                            <input type="time" name="horario"><br><br>
 
-                        <label>Opcion 3</label> <br>
-                        <label>Día</label>
-                        <select name="Seleccionar">
-                            <option value="Seleccionar">Seleccionar</option>
-                            <option value="Lunes">Lunes</option>
-                            <option value="Martes">Martes</option>
-                            <option value="Miercoles">Miercoles</option>
-                            <option value="Jueves">Jueves</option>
-                            <option value="Viernes">Viernes</option>
-                            <option value="Sábado">Sábado</option>
-                            <option value="Domingo">Domingo</option>
-                        </select>
-                        <label>Hora</label>
-                        <input type="time" name="horario">
-            
+                            <label> <strong>Opcion 3</strong></label> <br>
+                            <label>Día</label>
+                            <select name="Seleccionar">
+                                <option value="Seleccionar">Seleccionar</option>
+                                <option value="Lunes">Lunes</option>
+                                <option value="Martes">Martes</option>
+                                <option value="Miercoles">Miercoles</option>
+                                <option value="Jueves">Jueves</option>
+                                <option value="Viernes">Viernes</option>
+                                <option value="Sábado">Sábado</option>
+                                <option value="Domingo">Domingo</option>
+                            </select>
+                            <label>Hora</label>
+                            <input type="time" name="horario">
+                    </div>
                     <fieldset>
-                        <legend>Persona que sufrió violencia</legend><br>
+                        <legend><h2>Persona que sufrió violencia</h2></legend><br>
 
                         <label>Nombre completo</label>
                         
@@ -154,19 +162,20 @@
                         
                     </fieldset>
                 <br>    
-                    <label>Contanos un poco...</label>
+                    <label><h2>Contanos un poco...</h2></label>
                 <br>
                         <textarea rows="15" cols="30" placeholder="Este es un espacio para que puedas ponernos en contexto de la situación. Conta con la cantidad de detalles que te sientas comoda."></textarea>
                             
                 <br>
                 <div>
-                <p>¿Querés dejar asentados datos del agresor? 
-                    <a href="#" onclick="vermas5('mas5');" id="mas5">▿</a>
+                <p><h3>¿Querés dejar asentados datos del agresor?
+                    <a class="leermasmenos" href="#" onclick="vermas5('mas5');" id="mas5">[ver más]</a>
+                </h3>
                 </p>
                     
                     <div id="desplegar5" style="display:none;">
                     <fieldset>
-                        <legend>Agresor</legend><br>
+                        <legend><h2>Agresor</h2></legend><br>
 
                         <label>Nombre completo</label>
                         
@@ -232,7 +241,7 @@
                             <br>
                         </tr>
                         <br>
-                        <a href="#" onclick="vermas5('menos5');" id="menos5">[ver menos]</a>
+                        <a class="leermasmenos" href="#" onclick="vermas5('menos5');" id="menos5">[ver menos]</a>
                     </fieldset>
                     </div> 
                     </div>
@@ -241,8 +250,8 @@
                     </div>
     
             </form>
-        </div> 
-    </div>
+        
+        </div>
     
 
     <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
