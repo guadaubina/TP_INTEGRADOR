@@ -159,8 +159,12 @@
                         <textarea rows="15" cols="30" placeholder="Este es un espacio para que puedas ponernos en contexto de la situación. Conta con la cantidad de detalles que te sientas comoda."></textarea>
                             
                 <br>
-
-                <p>¿Querés dejar asentados datos del agresor? <a href="#" onclick="vermas1('mas1');" id="mas1">▿</a></p>
+                <div>
+                <p>¿Querés dejar asentados datos del agresor? 
+                    <a href="#" onclick="vermas5('mas5');" id="mas5">▿</a>
+                </p>
+                    
+                    <div id="desplegar5" style="display:none;">
                     <fieldset>
                         <legend>Agresor</legend><br>
 
@@ -228,11 +232,14 @@
                             <br>
                         </tr>
                         <br>
+                        <a href="#" onclick="vermas5('menos5');" id="menos5">[ver menos]</a>
                     </fieldset>
-
+                    </div> 
+                    </div>
                     <div class="botonesflex">
                         <button type="button" class="inputbutton" id="btnAddDenuncia">save</button>
                     </div>
+    
             </form>
         </div> 
     </div>
