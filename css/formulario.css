@@ -1,0 +1,27 @@
+
+p{
+    text-align: center;
+}
+#formulario {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+	
+}
+
+label{
+    padding: 10px
+}
+
+input[type=text], select {
+    width: fit-content;
+    margin: 7px;
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.horarios{
+    text-align: center;
+}

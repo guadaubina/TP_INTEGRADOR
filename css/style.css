@@ -44,14 +44,12 @@ body{
 	width: 100%;
 }
 
+
+
 #formulario {
     display: flex;
-    width: 70%;
-}
-
-#divformulario {
-    display: flex;
     justify-content: center;
+	
 }
 
 input[type=text], select {
@@ -80,7 +78,10 @@ input[type=text], select {
     background-color:#993BC7;
 }
 
-
+.leermasmenos{
+	text-decoration: none;
+ color: blueviolet;
+}
 
 .linea{
 	border-bottom: #000 solid;
