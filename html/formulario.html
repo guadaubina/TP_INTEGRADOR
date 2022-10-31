@@ -26,24 +26,218 @@
     <div id="divformulario">
         <div id="formulario"> 
             <form action="http://127.0.0.1:5000" method="post">
-                <table>
-                    <tbody>
-                        <tr>
-                            <td> Nombre completo* </th>
-                            <td> <input name="Nombre completo" type="text" placeholder="Ingrese su nombre y apellido" id="nombreId" size="130" required> </td>
+
+
+            
+                <label>El formulario lo realizo para...</label>
+                    <input name="quien" type="radio" value="mi misma" required><label>Mi Misma</label>
+                    <input name="quien" type="radio" value="un tercero">
+                    <label>Una Tercera Persona</label>
+                    <input type="text" name="vinculo" placeholder="Vinculo con la victima">
+             <br>
+
+            
+                <label>Contacto</label><br>
+                    <label>Teléfono*</label>
+                        <input type="tel" name="telefono" id="" placeholder="Ingrese Número" maxlength="10" required>
+                    <label>Mail*</label>
+                        <input type="email" name="mail" placeholder="Ingrese Mail" required><br>
+
+                    <label >Horarios seguros de contacto</label><br>
+
+                        <label>Opcion 1*</label> <br>
+                        <label>Día</label>
+                        <select name="Seleccionar" required>
+                            <option value="Seleccionar">Seleccionar</option>
+                            <option value="Lunes">Lunes</option>
+                            <option value="Martes">Martes</option>
+                            <option value="Miercoles">Miercoles</option>
+                            <option value="Jueves">Jueves</option>
+                            <option value="Viernes">Viernes</option>
+                            <option value="Sábado">Sábado</option>
+                            <option value="Domingo">Domingo</option>
+                        </select>
+                        <label>Hora</label>
+                        <input type="time" name="horario" required><br>
+
+                        <label>Opcion 2</label> <br>
+                        <label>Día</label>
+                        <select name="Seleccionar">
+                            <option value="Seleccionar">Seleccionar</option>
+                            <option value="Lunes">Lunes</option>
+                            <option value="Martes">Martes</option>
+                            <option value="Miercoles">Miercoles</option>
+                            <option value="Jueves">Jueves</option>
+                            <option value="Viernes">Viernes</option>
+                            <option value="Sábado">Sábado</option>
+                            <option value="Domingo">Domingo</option>
+                        </select>
+                        <label>Hora</label>
+                        <input type="time" name="horario"><br>
+
+                        <label>Opcion 3</label> <br>
+                        <label>Día</label>
+                        <select name="Seleccionar">
+                            <option value="Seleccionar">Seleccionar</option>
+                            <option value="Lunes">Lunes</option>
+                            <option value="Martes">Martes</option>
+                            <option value="Miercoles">Miercoles</option>
+                            <option value="Jueves">Jueves</option>
+                            <option value="Viernes">Viernes</option>
+                            <option value="Sábado">Sábado</option>
+                            <option value="Domingo">Domingo</option>
+                        </select>
+                        <label>Hora</label>
+                        <input type="time" name="horario">
+            
+                    <fieldset>
+                        <legend>Persona que sufrió violencia</legend><br>
+
+                        <label>Nombre completo</label>
+                        
+                            <input type="text" name="nombre" placeholder="Ingrese nombre completo">
+                        <br>
+                        <label>DNI</label>
+                        
+                            <input type="text" name="dni" placeholder="Ingrese DNI">
+
+
+                        <label>Edad</label>
+                            <input type="number" name="edad" value="18">
+                        <br>
+                            <label>Provincia</label>
+                            <select name="Seleccionar">
+                                <option value="Seleccionar" selected>Seleccionar</option>
+                                <option value="BSAS">Buenos Aires</option>
+                                <option value="Ciudad Autonoma De Buenos Aires">Ciudad Autónoma de Buenos Aires</option>
+                                <option value="Catamarca">Catamarca</option>
+                                <option value="Chaco">Chaco</option>
+                                <option value="Chubut">Chubut</option>
+                                <option value="Cordoba">Córdoba</option>
+                                <option value="Corrientes">Corrientes</option>
+                                <option value="Entre Rios">Entre Rios</option>
+                                <option value="Formosa">Formosa</option>
+                                <option value="Jujuy">Jujuy</option>
+                                <option value="la Pampa">La Pampa</option>
+                                <option value="la rioja">La Rioja</option>
+                                <option value="mendoza">Mendoza</option>
+                                <option value="misiones">Misiones</option>
+                                <option value="Neuquén">Neuquén</option>
+                                <option value="rio negro">Rio Negro</option>
+                                <option value="Salta">Salta</option>
+                                <option value="san juan">San Juan</option>
+                                <option value="san luis">San Luis</option>
+                                <option value="santa cruz">Santa Cruz</option>
+                                <option value="santa fe">Santa Fe</option>
+                                <option value="santiago del estero">Santiago Del Estero</option>
+                                <option value="tierra del fuego">Tierra del Fuego</option>
+                                <option value="tucuman">Tucumán</option>
+                            </select>
+                        
+                        <br>
+                
+                        <br>
+                            <label>Ciudad</label>
+                                <input type="text" placeholder="Ingrese su ciudad">
+                            <br>
+                            <label>Localidad</label>
+                                <input type="text" placeholder="Ingrese su localidad">
+                            <br>
+                            <label>Direccion</label>
+                                <input type="text" placeholder="Ingrese su direccion">
+                            <br>
                         </tr>
-                        <tr>
-                            <td> Dirección* </th>
-                            <td> <input name="Dirección" type="text" placeholder="Ingrese su dirección" id="direccionId" size="130" required> </td>
+                        <br>
+                       
+
+
+                        
+                    </fieldset>
+                <br>    
+                    <label>Contanos un poco...</label>
+                <br>
+                        <textarea rows="15" cols="30" placeholder="Este es un espacio para que puedas ponernos en contexto de la situación. Conta con la cantidad de detalles que te sientas comoda."></textarea>
+                            
+                <br>
+
+                <p>¿Querés dejar asentados datos del agresor? <a href="#" onclick="vermas1('mas1');" id="mas1">▿</a></p>
+                    <fieldset>
+                        <legend>Agresor</legend><br>
+
+                        <label>Nombre completo</label>
+                        
+                            <input type="text" name="nombre" placeholder="Ingrese nombre completo">
+                        <br>
+                        <label>DNI</label>
+                        
+                            <input type="text" name="dni" placeholder="Ingrese DNI"> <br>
+
+                            <label>Sexo</label>
+                            <input name="sexo" type="radio" value="Femenino" required><label>Femenino</label>
+                            <input name="sexo" type="radio" value="Masculino"><label>Masculino</label>
+                            <input name="sexo" type="radio" value="Otro"><label>Otro</label>
+                            
+                        <br>
+                            <label>Edad</label>
+                                <input type="number" name="edad" value="18"> <br>
+
+
+                            <label>Vínculo</label>
+                            <input type="text" name="vinculo" placeholder="Vinculo con el agresor">
+                        <br>
+                            <label>Provincia</label>
+                            <select name="Seleccionar">
+                                <option value="Seleccionar" selected>Seleccionar</option>
+                                <option value="BSAS">Buenos Aires</option>
+                                <option value="Ciudad Autonoma De Buenos Aires">Ciudad Autónoma de Buenos Aires</option>
+                                <option value="Catamarca">Catamarca</option>
+                                <option value="Chaco">Chaco</option>
+                                <option value="Chubut">Chubut</option>
+                                <option value="Cordoba">Córdoba</option>
+                                <option value="Corrientes">Corrientes</option>
+                                <option value="Entre Rios">Entre Rios</option>
+                                <option value="Formosa">Formosa</option>
+                                <option value="Jujuy">Jujuy</option>
+                                <option value="la Pampa">La Pampa</option>
+                                <option value="la rioja">La Rioja</option>
+                                <option value="mendoza">Mendoza</option>
+                                <option value="misiones">Misiones</option>
+                                <option value="Neuquén">Neuquén</option>
+                                <option value="rio negro">Rio Negro</option>
+                                <option value="Salta">Salta</option>
+                                <option value="san juan">San Juan</option>
+                                <option value="san luis">San Luis</option>
+                                <option value="santa cruz">Santa Cruz</option>
+                                <option value="santa fe">Santa Fe</option>
+                                <option value="santiago del estero">Santiago Del Estero</option>
+                                <option value="tierra del fuego">Tierra del Fuego</option>
+                                <option value="tucuman">Tucumán</option>
+                            </select>
+                        
+                        <br>
+                
+                        <br>
+                            <label>Ciudad</label>
+                                <input type="text" placeholder="Ingrese su ciudad">
+                            <br>
+                            <label>Localidad</label>
+                                <input type="text" placeholder="Ingrese su localidad">
+                            <br>
+                            <label>Direccion</label>
+                                <input type="text" placeholder="Ingrese su direccion">
+                            <br>
                         </tr>
-                    </tbody>
-                </table>
-                <div class="botonesflex">
-                    <button type="button" class="inputbutton" id="btnAddDenuncia">save</button>
-                </div>
+                        <br>
+                    </fieldset>
+
+                    <div class="botonesflex">
+                        <button type="button" class="inputbutton" id="btnAddDenuncia">save</button>
+                    </div>
             </form>
         </div> 
     </div>
+    
+
     <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <script src="../js/form.js"></script>
     <script src="../js/webcomponents.js"></script>
