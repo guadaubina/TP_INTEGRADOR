@@ -190,7 +190,40 @@ input[type=text], select {
 	margin: -20px 0px 0px 0px
 }
 
-
+.wrapper {
+	height: 100vh;
+	/*This part is important for centering*/
+	display: grid;
+	place-items: center;
+	height: 125px;
+	margin: 0px 25px 0px 25px;
+	background-color: white;
+	border-radius: 30px;
+  }
+  
+  .typing-demo {
+	width: 85ch;
+	animation: typing 6s steps(22), blink .5s step-end infinite alternate;
+	white-space: nowrap;
+	overflow: hidden;
+	border-right: 3px solid;
+	font-family: monospace;
+	font-size: 2.1em;
+	animation-iteration-count: infinite;
+	color: #b638d586;
+  }
+  
+  @keyframes typing {
+	from {
+	  width: 0
+	}
+  }
+	  
+  @keyframes blink {
+	50% {
+	  border-color: transparent
+	}
+  }
 
 .modal {
 	width: 100%;
