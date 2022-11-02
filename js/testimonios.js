@@ -11,7 +11,7 @@ function vermas1(id){
 
 function vermas2(id){
     if(id=="mas2"){
-    document.getElementById("desplegar2").style.display="block";   
+    document.getElementById("desplegar2").style.display="";   
     document.getElementById("mas2").style.display="none"; 
     }
     else{
