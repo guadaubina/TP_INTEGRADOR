@@ -7,8 +7,8 @@
 }
 
 .ring-shape{
-	width: 200px;
-	height: 200px;
+	width: 220px;
+	height: 220px;
 	border-radius: 50%;
 	border-style: double;
 	border-width: 5px;
@@ -60,5 +60,14 @@ h1 {
 
 section {
     margin: 5%;
+    
 }
 
+a{
+    color: blueviolet;
+}
+
+#indice{
+    background-color: #b068d4;
+    padding: 7% 20%
+}
