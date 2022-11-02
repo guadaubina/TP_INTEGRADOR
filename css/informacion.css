@@ -14,7 +14,7 @@
 	border-width: 5px;
     border-color: rgb(199, 150, 245);
 	margin: 10px;
-    background-color: rgb(255, 249, 163);
+    background-color: #b6ddb6dc;
     display: flex ;
     flex-direction: column;
     justify-content: center;
@@ -63,11 +63,15 @@ section {
     
 }
 
-a{
+.link-texto{
     color: blueviolet;
 }
 
 #indice{
     background-color: #b068d4;
-    padding: 7% 20%
+    padding: 4% 20%
+}
+
+a{
+    
 }
