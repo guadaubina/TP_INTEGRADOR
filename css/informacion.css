@@ -94,19 +94,36 @@ section {
     background-color:#f9edfd6f;
     border: 5px #d9afe2 solid;
     width: 60%;
-    margin-left: 14%;
     border-block-width: 3px;
-    padding: 1.25% 1.25% 1.25% 6%;
+    padding: 1.25% 1.25% 1.25% 3%;
     border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
+
+.textoyfoto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #click {
     width: 2.5%;
     height: 1%;
-    margin: 20px -100px;
-}
-#textoyfoto{
-    display: flex;
-    flex: row;
-
 }
 
+
+#imgInfo {
+    width: 100%;
+    filter: grayscale(1);
+}
+
+#imgInfo:hover {
+    filter: grayscale(0);
+}
+
+#imgclic {
+    width: 25px;
+    margin: -5px;
+}
