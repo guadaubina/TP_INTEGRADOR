@@ -129,27 +129,32 @@ input[type=text], select {
 
 
 /* agregado  */
-
 #imgbanner {
 	width: 100%;
 }
 
 #marcha1{
     display: block;
-    width: 400px;
-    height: 313px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
+	max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    height: 90%;
 }
+
 #marcha2{
     display: block;
-    width: 219px;
-    height: 313px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
+	max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    height: 90%;
 }
+
 
 .banner2{
 	display: flex;
@@ -157,13 +162,11 @@ input[type=text], select {
 	justify-content: center;
 	height: 500px;
 	background-color:#fff;
-	;
-	padding: 100px 0px 0px 0px;
+	padding: 70px 30px 0px 30px;
 	margin: 0px 20px 0px 20px;
 	border-radius: 30px;
 
 }
-
 
 .videoytexto{
 	justify-content: center;
@@ -263,7 +266,7 @@ input[type=text], select {
 #textoprimeraparte{
 	display: flex;
 	justify-content: center;
-	margin: -10px 30px 20px 30px;
+	margin: -10px 15px 20px 15px;
 	font-size: 20px;
 	text-align: center;
 }
@@ -415,4 +418,9 @@ input[type=text], select {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
+}
+
+#divImg {
+    width: 200px;
+    height: 100%;
 }
