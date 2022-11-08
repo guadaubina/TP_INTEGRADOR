@@ -127,3 +127,9 @@ section {
     width: 25px;
     margin: -5px;
 }
+
+#linea{
+    height: 4px;
+    background-color: #d9afe2;
+    width: 70%;
+}
